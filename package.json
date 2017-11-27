@@ -4,7 +4,7 @@
   "description": "Give power to your Router. An abstraction on top of normal routing function definitions. Makes your code more testable, easily configured, and straight forward",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,9 @@
   "devDependencies": {
     "eslint": "^4.11.0",
     "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "methods": "^1.1.2"
   }
 }

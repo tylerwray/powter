@@ -1,0 +1,11 @@
+{
+  "paths": {
+    "/route/:id": {
+      "controller": "test/fixtures/route.js",
+      "get": "getBunny",
+      "post": "postBunny",
+      "put": "putBunny",
+      "delete": "removeBunny"
+    }
+  }
+}
