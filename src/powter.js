@@ -29,7 +29,9 @@ const powter = function(app, configFilePath) {
 
     methods.forEach(function(method) {
       let func = controller[method] || controller[routeConfig[method]]
-      app[method](route, func)
+      if (func) {
+        app[method](route, func)
+      }
     })
   })
 
