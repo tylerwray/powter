@@ -1,6 +1,6 @@
 {
   "name": "powter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Give power to your Router. An abstraction on top of normal routing function definitions. Makes your code more testable, easily configured, and straight forward",
   "main": "index.js",
   "scripts": {
