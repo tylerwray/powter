@@ -23,7 +23,7 @@ const powter = function(app, configFilePath) {
     return false
   }
 
-  routes.forEach(route => {
+  routes.forEach(function(route) {
     const routeConfig = config.paths[route]
     const controller = require(path.join(APP_ROOT, routeConfig.controller))
 
